@@ -1,0 +1,265 @@
+html,body,header, #intro{
+	height: 100%;
+
+}
+#intro{
+	background: url(../img/6.jpg) no-repeat center center;
+	background-size: cover;
+}
+/*#secondBlock{
+	background: url(../img/5.jpg) no-repeat center center;
+	height: 640px;
+}*/
+.navbar {
+    box-shadow: none;
+    z-index: 1; 
+
+}
+#nomer{
+  color: white;
+  top: 90px; left: 1400px;
+  z-index: 2;
+}
+#imgGam1{
+
+  top: 30px; left: 1350px;
+  z-index: 999;
+}
+
+#imgGam2{
+
+  top: 340px;
+   left: 1200px;
+}
+#imgGam3{
+
+  top: 540px; left: 1550px;
+}
+#imgGam4{
+
+  top: 720px; left: 1400px;
+}
+
+@media only screen and (max-width: 1025px) {
+	 #manimg{
+    position: absolute;
+      top: 10%;
+      left: 60%;
+      width: 30%;
+      height: auto;
+      z-index: 5
+ }
+  #navItem{
+      display: none;
+    }
+    #nomer{
+      color: white;
+      top: 90px; 
+      left: 750px;
+      z-index: 2;
+    }
+  #imgGam1{
+      top: 80px;
+      left: 850px;
+      z-index: 3;
+  }
+  #imgGam2{
+
+     top: 400px;
+     left: 600px;
+  }
+  #imgGam3{
+
+    top: 740px; 
+    left: 900px;
+  }
+  #imgGam4{
+
+    top: 1050px; 
+    left: 750px;
+  }
+
+#crh1{
+    	font-size: 25px;
+    }
+    #crh2{
+    	font-size: 17px;
+    }
+    #crimg{
+    	width: 65%;
+    }
+    #crbtn{
+    	padding: 10px 9px;
+    	font-size: 15px;    
+    }
+    }
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: black;
+        z-index: 1;
+    }
+     #manimg{
+   	display: none;
+ }
+     #navItem{
+      display: none;
+    }
+    #firstblockh1{
+      font-size: 25px;
+      margin-top: 10px;
+    }
+    #firstblockh2{
+      font-size: 20px;
+    }
+    #nomer{
+      color: white;
+      font-size: 13px;
+      top: 70px;
+      left: 612px;
+      z-index: 2;
+    }
+    #imgGam1{
+
+      top: 100px;
+       left: 600px;
+       z-index: 3;
+    }
+
+  #imgGam2{
+      top: 410px;
+      left: 650px;
+    }
+  #imgGam3{
+
+      top: 740px; 
+      left: 610px;
+    }
+  #imgGam4{
+      top: 980px; 
+      left: 500px;
+    }
+  
+   #crh1{
+    	font-size: 16px;
+    }
+    #crh2{
+    	font-size: 14px;
+    }
+    #crimg{
+    	width: 50%;
+    }
+    #crbtn{
+    	padding: 8px 8px;
+    	font-size: 10px;    
+    }
+}
+@media only screen and (max-width: 485px) {
+    .navbar {
+        background-color: black;
+        z-index: 1;
+    }
+    #manimg{
+   	display: none;
+ }
+     #navItem{
+      display: none;
+    }
+    #firstblockh1{
+      font-size: 25px;
+      margin-top: 10px;
+    }
+    #firstblockh2{
+      font-size: 20px;
+    }
+    #nomer{
+      color: white;
+      font-size: 13px;
+      top: 70px; left: 230px;
+      z-index: 2;
+    }
+    #imgGam1{
+
+      top: 100px;
+       left: 300px;
+       z-index: 3;
+    }
+
+  #imgGam2{
+
+      top: 340px;
+       left: 1200px;
+    }
+  #imgGam3{
+
+      top: 440px; 
+      left: 310px;
+    }
+  #imgGam4{
+
+      top: 640px; 
+      left: 200px;
+    }
+    #crh1{
+    	font-size: 10px;
+    }
+    #crh2{
+    	font-size: 10px;
+    }
+    #crimg{
+    	width: 40%;
+    }
+    #crbtn{
+    	padding: 5px 5px;
+    	font-size: 7px;    
+    }
+  }
+ .hover03 button img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover03 button:hover img {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+#btnhover:after{
+	content: '';
+  position: relative;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 90%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+#btnhover:hover:after{
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+#btnhover2:after{
+	content: '';
+  position: relative;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 90%;
+  border-bottom: 1px solid;
+  margin-top: 0px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+#btnhover2:hover:after{
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
